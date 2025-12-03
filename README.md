@@ -1,10 +1,10 @@
-# MorphoID: Individual Recognition of Crayfish Across Molting Cycles
+# ConstellID: Individual Recognition of Crayfish Across Molting Cycles
 
 [![Paper Status](https://img.shields.io/badge/Paper-Under%20Review-blue)](https://doi.org/placeholder)
 
 ## 📌 Overview
 
-MorphoID is a novel biometric identification system designed specifically for crustaceans that overcomes the fundamental challenge of phenotypic reset during molting cycles. Our approach leverages micro-morphological features on the cephalothorax of *Procambarus clarkii* (red swamp crayfish) and a specialized graph neural network architecture to achieve robust individual recognition across multiple molting events.
+ConstellID is a novel biometric identification system designed specifically for crustaceans that overcomes the fundamental challenge of phenotypic reset during molting cycles. Our approach leverages micro-morphological features on the cephalothorax of *Procambarus clarkii* (red swamp crayfish) and a specialized graph neural network architecture to achieve robust individual recognition across multiple molting events.
 
 ## 🔬 Research Background
 
@@ -16,7 +16,7 @@ Our framework consists of two key components:
 
 1. **Feature Detection**: An enhanced RTMDet-SOSD model precisely locates biological feature points on the cephalothorax region, including spot distribution patterns and micro-protrusions.
 
-2. **Feature Embedding**: The MorphoID-Embedder network, built with our novel **EdgeGATv2Conv** operator, transforms detected points into highly discriminative embeddings by:
+2. **Feature Embedding**: The ConstellID network, built with our novel **EdgeGATv2Conv** operator, transforms detected points into highly discriminative embeddings by:
    - Combining local geometric modeling with dynamic attention mechanisms
    - Effectively capturing both micro-structural details and macro spatial configurations
    - Maintaining robustness against missing points and acquisition variations
@@ -40,7 +40,7 @@ Our framework consists of two key components:
 
 Once our manuscript is accepted, this repository will include:
 
-- Full implementation of the MorphoID-Embedder architecture
+- Full implementation of the ConstellID architecture
 - Pre-trained models for crayfish individual recognition
 - Training and inference scripts with detailed documentation
 - Sample datasets and preprocessing pipelines
